@@ -1,0 +1,99 @@
+    /* Contenido De Modificacion En General */
+.ClassParaModoFicarSiste{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #0b0b0b;
+    background: -webkit-linear-gradient(to left, #0b0b0b, #000000);
+    background: linear-gradient(to left, #000000, #0b0b0b);
+}
+    /* Contenido De Modificacion En General */
+
+    /* Contenido De Efecto De Nava Resaltar Letras */
+.EfectoDeNavResaltarLetras {
+  transition: transform 0.3s ease;
+}
+.EfectoDeNavResaltarLetras:hover {
+  transform: scale(1.05);
+}
+    /* Contenido De Efecto De Nava Resaltar Letras */
+
+    /* Contenido De Efecto Adjuntar Letras */
+.tracking-in-contract-bck {
+	-webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+ @-webkit-keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+    /* Contenido De Efecto Adjuntar Letras */
+
+    /* Contenido De Tipo De Letra Para Titulo */
+.TipoDeLetraEnSubTituloYTitulo{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 2.5rem;
+}
+    /* Contenido De Tipo De Letra Para Titulo */
+
+    /* Contenido De Tamaño De Img Logo */
+.TamañoDeLogoPersonalPrincipal{
+  width: 20rem;
+}
+    /* Contenido De Tamaño De Img Logo */
+
+  /* Contenido De Color De Card Con Efecto */
+.colorDeCardTransparente{
+  transition-duration: 1s; 
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.colorDeCardTransparente:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+  /* Contenido De Color De Card Con Efecto */
+
+  .ColocarEfectoDeZoom{
+    transition-duration: 1s; 
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.ColocarEfectoDeZoom:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}

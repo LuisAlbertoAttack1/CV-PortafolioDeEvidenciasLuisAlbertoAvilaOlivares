@@ -1,0 +1,9 @@
+- > Medidas De Iconos De Nav{
+    width="16rem"
+    srcset="IconoNoEncontrado"
+
+} 
+
+                        <div class="text-center mt-4">
+                            <img src="/img/ImgDeEjemploDeProyectos.webp" class="img-fluid rounded-3 border-0 ColocarEfectoDeZoom" alt="ImgNoEncontrada">
+                        </div>
